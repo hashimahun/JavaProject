@@ -58,7 +58,7 @@ class GameTetris extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setBounds(START_LOCATION, START_LOCATION, FIELD_WIDTH * BLOCK_SIZE + FIELD_DX, FIELD_HEIGHT * BLOCK_SIZE + FIELD_DY);
         setResizable(false);
-        canvas.setBackground(Color.black); // define the background color
+        canvas.setBackground(Color.black); 
         addKeyListener(new KeyAdapter() {
             public void keyPressed(KeyEvent e) {
                 if (!gameOver) {
