@@ -71,7 +71,7 @@ class GameTetris extends JFrame {
         });
         add(BorderLayout.CENTER, canvas);
         setVisible(true);
-        Arrays.fill(mine[FIELD_HEIGHT], 1); // create a ground for mines
+        Arrays.fill(mine[FIELD_HEIGHT], 1); 
     }
 
     void go() { // main loop of game
