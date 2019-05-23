@@ -84,7 +84,7 @@ class GameTetris extends JFrame {
             if (figure.isTouchGround()) {
                 figure.leaveOnTheGround();
                 figure = new Figure();
-                gameOver = figure.isCrossGround(); // Is there space for a new figure?
+                gameOver = figure.isCrossGround(); 
             } else
                 figure.stepDown();
         }
