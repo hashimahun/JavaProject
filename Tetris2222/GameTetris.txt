@@ -231,7 +231,7 @@ class GameTetris extends JFrame {
         }
     }
 
-    class Canvas extends JPanel { // my canvas for painting
+    class Canvas extends JPanel { 
         @Override
         public void paint(Graphics g) {
             super.paint(g);
