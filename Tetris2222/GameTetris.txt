@@ -257,4 +257,4 @@ class GameTetris extends JFrame {
         }
     }
 }
-s
+
