@@ -74,7 +74,7 @@ class GameTetris extends JFrame {
         Arrays.fill(mine[FIELD_HEIGHT], 1); 
     }
 
-    void go() { // main loop of game
+    void go() { 
         while (!gameOver) {
             try {
                 Thread.sleep(SHOW_DELAY);
